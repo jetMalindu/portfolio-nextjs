@@ -5,7 +5,7 @@ const TalkButton = () => {
   return (
     <Link
       className="app__filled_btn min-w-[10rem]"
-      href={"mailto:" + Strings.email}
+      href={Strings.primaryEmailLink}
       target="_blank"
     >
       Let&apos;s Talk
