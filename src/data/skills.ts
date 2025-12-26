@@ -15,9 +15,9 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
-        level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        title: "C#",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/csharp.svg",
       },
     ],
   },
@@ -74,26 +74,17 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
       },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/nestjs.svg",
-      // },
-    ],
-  },
-  {
-    title: "Mobile App Development",
-    items: [
       {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
+        title: "Nest.js",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/nestjs.svg",
       },
       {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
+        title: ".Net core",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/dotnet.svg",
       },
+
     ],
   },
   {

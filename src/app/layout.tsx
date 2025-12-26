@@ -25,9 +25,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Rajput",
+  title: "Malindu Nimalsiri - Software Engineer & Full Stack Developer",
   description:
-    "Nikhil Rajput is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Malindu Nimalsiri is a proficient Software Engineer and Full Stack Developer from Sri Lanka, skilled in front-end and back-end development using modern tech stacks.",
   robots: {
     index: true,
     follow: true,
@@ -66,23 +66,15 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
-    "nikhil rajput",
-    "nikhil",
-    "nixrajput",
-    "nikhil-rajput",
-    "rajput nikhil",
-    "founder of nixlab",
-    "nixlab founder",
-    "full stack developer",
-    "indian developer",
-    "nixrajput github",
+    "Malindu",
+    "Nimalsiri",
+    "Full Stack Developer",
+    "Sri Lankan Developer",
+    "jetMalindu github",
   ],
 };
 
-const GoogleAnalytics = dynamic(
-  () => import("@/components/common/GoogleAnalytics"),
-  { ssr: false }
-);
+
 const WebVitals = dynamic(() => import("@/components/common/WebVitals"), {
   ssr: false,
 });
@@ -96,7 +88,6 @@ const isDebug = process.env.NODE_ENV === "development";
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="en" className={poppins.className}>
-      {isDebug ? null : <GoogleAnalytics />}
 
       <body className={isDebug ? "debug-screens" : ""}>
         {isDebug ? <WebVitals /> : null}

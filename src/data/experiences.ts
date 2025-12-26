@@ -2,61 +2,46 @@ import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
   {
-    designation: "Software Development Engineer",
-    company: "StarApps Studio",
-    startDate: "Jul 2024",
+    designation: "Software Engineer",
+    company: "Fortude",
+    startDate: "Jan 2024",
     isCurrentJob: true,
-    location: "Pune, India",
+    location: "Colombo, Sri Lanka",
     description: [
-      "Currently working on developing innovative software solutions.",
-      "Contributing to large-scale projects with a focus on performance optimization.",
-      "Collaborating closely with cross-functional teams to ensure product quality.",
-      "Adhering to clean code practices and modern development techniques.",
+      "Engineered microservices using NestJS with PostgreSQL for scalable ERP functionalities across inventory, production, and logistics modules.",
+      "Implemented GraphQL APIs for efficient client-server communication.",
+      "Built responsive and interactive frontend modules with Angular and React.",
+      "Enabled inter-service communication and event-driven workflows using Kafka, ensuring decoupled and reliable data flow across services.",
     ],
   },
   {
     designation: "Full Stack Developer",
-    company: "Merito",
-    startDate: "Feb 2023",
-    endDate: "Jul 2024",
+    company: "Kasper Global Pvt Ltd",
+    startDate: "Aug 2022",
+    endDate: "Dec 2024",
     isCurrentJob: false,
-    location: "Pune, India",
+    location: "Nugegoda, Sri Lanka",
     description: [
-      "Developed over 5 web applications with seamless backend API integration.",
-      "Streamlined workflows by eliminating redundant data, boosting efficiency.",
-      "Improved website loading time by 80% through image optimization, minimizing main-thread work, and implementing SEO strategies.",
-      "Resolved 100+ bugs and conducted thorough code reviews.",
+      "Developed a scalable monitoring dashboard with configurable settings for IoT devices using Node.js and React.",
+      "Managed IoT device communication through RESTful APIs and MQTT protocol.",
       "Demonstrated expertise in both backend and frontend development.",
     ],
   },
   {
-    designation: "Full Stack Development Intern",
-    company: "TECHOX LLP",
+    designation: "Software Engineer Intern",
+    company: "Surfedge pvt Ltd",
     startDate: "May 2021",
     endDate: "Jul 2022",
     isCurrentJob: false,
     location: "Remote",
     description: [
-      "Revamped and enhanced 3+ mobile apps using Flutter.",
-      "Deployed RESTful APIs for seamless app-server integration.",
-      "Integrated Google AdMob to effectively monetize applications.",
-      "Contributed to boosting app functionality and revenue generation.",
+      "Developed and implemented new features for an online learning platform using Laravel PHP, translating user requirements into scalable solutions.",
+      "Designed and built robust backend functionalities to ensure a seamless user experience and platform reliability.",
+      "Participated in agile development processes, conducting code reviews and troubleshooting to maintain high-quality code standards.",
+
     ],
   },
-  {
-    designation: "Web Development Intern",
-    company: "Career Corner Education Pvt Ltd",
-    startDate: "Jul 2021",
-    endDate: "Nov 2021",
-    isCurrentJob: false,
-    location: "Remote",
-    description: [
-      "Spearheaded website development and enhancements for company portals.",
-      "Prioritized clean, reusable code with modern tech stacks.",
-      "Efficiently managed multiple tasks with minimal supervision.",
-      "Collaborated with senior team members to meet and exceed project goals.",
-    ],
-  },
+
 ];
 
 export default experiences;
